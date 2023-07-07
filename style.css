@@ -3,3 +3,39 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+nav a {
+  padding: 0 10px;
+  background-color: grey;
+}
+
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+}
+
+#featured-property figcaption {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#details div {
+  flex: 1 0 25%;
+  text-align: center;
+  background-color: #ddd; /* You can change this color */
+}
